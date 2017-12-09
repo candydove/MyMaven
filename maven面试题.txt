@@ -1,0 +1,20 @@
+1.maven的两个功能:
+	依赖管理:jar包放在jar包的仓库中,项目中放jar包坐标
+	一键构建:mvn tomcat:run 用maven的tomcat插件用命令运行
+2.maven中jar包放在pom.xml文件中
+3.安装目录下重要文件:conf/settings.xml,注释不能删
+4.maven仓库的分类,3个
+5.安装本地仓库
+6.      groupid,公司名称
+	artifactid,项目名称
+	version,版本号
+	组成jar包坐标
+7.snapshot:测试版,release,最终版
+8.maven安装
+	1.解压maven
+	2.解压jar包的仓库
+	3.在maven的settings.xml修改仓库的位置
+	4.在eclipse中集成maven插件,preference中配置好maven和仓库
+
+
+
